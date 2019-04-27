@@ -10,7 +10,7 @@ from subprocess import check_output, CalledProcessError
 from tempfile import mkdtemp
 import sys
 
-from pyrouge.base import ROUGE_EVAL_HOME, Doc
+from .base import ROUGE_EVAL_HOME, Doc
 
 
 class Rouge155(object):
